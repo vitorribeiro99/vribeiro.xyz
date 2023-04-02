@@ -3,7 +3,7 @@ import { FiMenu, FiMoon, FiSun, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import useThemeSwitcher from '../hooks/useThemeSwitcher';
 import logoLight from '../images/vr-logo.svg';
-import logoDark from '../images/logo-dark.svg';
+import logoDark from '../images/vr-logo.svg';
 import { motion } from 'framer-motion';
 import Button from './reusable/Button';
 
