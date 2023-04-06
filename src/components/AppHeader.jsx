@@ -9,7 +9,6 @@ import Button from './reusable/Button';
 
 const AppHeader = () => {
 	const [showMenu, setShowMenu] = useState(false);
-	const [showModal, setShowModal] = useState(false);
 	const [activeTheme, setTheme] = useThemeSwitcher();
 
 	function toggleMenu() {
@@ -101,9 +100,9 @@ const AppHeader = () => {
 						About Me
 					</Link>
 					<Link
-						to="/contact"
+						to="/resume"
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
-						aria-label="Contact"
+						aria-label="Resume"
 					>
 						Resumé
 					</Link>
